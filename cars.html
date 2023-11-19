@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог</title>
+    <link rel="shortcut icon" href="images/logo-1.svg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo">
+              <img
+                src="images/logo.svg"
+                alt="Логотип компании"
+                class="logo__img"
+              />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a href="index.html" class="menu__list-link">Главная</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="services.html" class="menu__list-link"
+                    >Наши услуги</a
+                  >
+                </li>
+                <li class="menu__list-item">
+                  <a
+                    href="cars.html"
+                    class="menu__list-link menu__list-link--active"
+                    >Аренда авто</a
+                  >
+                </li>
+                <li class="menu__list-item">
+                  <a href="about.html" class="menu__list-link">О нас</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="contacts.html" class="menu__list-link"
+                    >Связь с нами</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="choose">
+          <div class="container">
+            <h2 class="section-title">Выберите автомобиль</h2>
+            <div class="tads">
+              <div class="tabs__btn">
+                <button
+                  class="tabs__btn-item tabs__btn-item--active"
+                  data-button="content-1"
+                >
+                  Легковые автомобили
+                </button>
+                <button class="tabs__btn-item" data-button="content-2">
+                  Пикапы
+                </button>
+                <button class="tabs__btn-item" data-button="content-3">
+                  Кроссоверы
+                </button>
+                <button class="tabs__btn-item" data-button="content-4">
+                  Электрические
+                </button>
+              </div>
+              <div class="tabs__content">
+                <div
+                  class="tabs__content-item tabs__content-item--active"
+                  id="content-1"
+                >
+                  <div class="card">
+                    <img src="images/aveo-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Chevrolet Aveo 2012</h3>
+                      <p class="card__text">Пробег: 159000 км.</p>
+                      <p class="card__price">6000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/cruze-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Chevrolet Cruze 2011</h3>
+                      <p class="card__text">Пробег: 183000 км.</p>
+                      <p class="card__price">8000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/octavia-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Skoda Octavia 2022</h3>
+                      <p class="card__text">Пробег: 15000 км.</p>
+                      <p class="card__price">12000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/ceed-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Kia Ceed 2021</h3>
+                      <p class="card__text">Пробег: 59000 км.</p>
+                      <p class="card__price">8000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/stinger-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Kia Stinger 2022</h3>
+                      <p class="card__text">Пробег: 22000 км.</p>
+                      <p class="card__price">15000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/k5-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Kia K5 2022</h3>
+                      <p class="card__text">Пробег: 37000 км.</p>
+                      <p class="card__price">9000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/optima-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Kia Optima 2018</h3>
+                      <p class="card__text">Пробег: 86000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/passat-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Volkswagen Passat 2022</h3>
+                      <p class="card__text">Пробег: 37000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/polo-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Volkswagen Polo 2022</h3>
+                      <p class="card__text">Пробег: 112000 км.</p>
+                      <p class="card__price">8000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/golf-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Volkswagen Golf 2016</h3>
+                      <p class="card__text">Пробег: 134000 км.</p>
+                      <p class="card__price">7000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/jetta-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Volkswagen Jetta 2022</h3>
+                      <p class="card__text">Пробег: 56000 км.</p>
+                      <p class="card__price">10000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/cls-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz CLS 2023</h3>
+                      <p class="card__text">Пробег: 7000 км.</p>
+                      <p class="card__price">15000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/cclass-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz C-Class 2022</h3>
+                      <p class="card__text">Пробег: 19000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/eclass-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz E-Class 2022</h3>
+                      <p class="card__text">Пробег: 9000 км.</p>
+                      <p class="card__price">13000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/cla-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz CLA 2023</h3>
+                      <p class="card__text">Пробег: 5000 км.</p>
+                      <p class="card__price">14000 руб./день</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="images/limousine-1.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <div class="card__content">
+                      <h3 class="card__title">
+                        Mercedes Benz S-Class Maybach Limousine 2021
+                      </h3>
+                      <p class="card__text">Пробег: 4000 км.</p>
+                      <p class="card__price">25000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-2">
+                  <div class="card">
+                    <img src="images/tundra-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Toyota Tundra 2022</h3>
+                      <p class="card__text">Пробег: 14000 км.</p>
+                      <p class="card__price">13000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/trx-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Ram TRX 2022</h3>
+                      <p class="card__text">Пробег: 22000 км.</p>
+                      <p class="card__price">18000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/hilux-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Toyota Hilux 2023</h3>
+                      <p class="card__text">Пробег: 9000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/ram-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Dodge Ram 2017</h3>
+                      <p class="card__text">Пробег: 44000 км.</p>
+                      <p class="card__price">10000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/xclass-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz X-Class 2021</h3>
+                      <p class="card__text">Пробег: 85000 км.</p>
+                      <p class="card__price">15000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="images/foton_tunland-1.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <div class="card__content">
+                      <h3 class="card__title">Foton Tunland 2020</h3>
+                      <p class="card__text">Пробег: 138000 км.</p>
+                      <p class="card__price">10000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/yaz-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Уаз Pickup 2019</h3>
+                      <p class="card__text">Пробег: 109000 км.</p>
+                      <p class="card__price">9000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="images/changan_hunter-1.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <div class="card__content">
+                      <h3 class="card__title">Changan Hunter 2023</h3>
+                      <p class="card__text">Пробег: 11000 км.</p>
+                      <p class="card__price">12000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-3">
+                  <div class="card">
+                    <img src="images/gle-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz GLE 2022</h3>
+                      <p class="card__text">Пробег: 40000 км.</p>
+                      <p class="card__price">16000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/glk-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz GLK 2016</h3>
+                      <p class="card__text">Пробег: 157000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/glc-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz GLC 2023</h3>
+                      <p class="card__text">Пробег: 11000 км.</p>
+                      <p class="card__price">14000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/gls-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz GLS 2021</h3>
+                      <p class="card__text">Пробег: 76000 км.</p>
+                      <p class="card__price">15000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/x5-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">BMW X5 2022</h3>
+                      <p class="card__text">Пробег: 56000 км.</p>
+                      <p class="card__price">15000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/macan-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Porsche Macan 2022</h3>
+                      <p class="card__text">Пробег: 27000 км.</p>
+                      <p class="card__price">19000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/duster-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Renault Duster 2023</h3>
+                      <p class="card__text">Пробег: 6000 км.</p>
+                      <p class="card__price">10000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/creta-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Hyundai Creta 2023</h3>
+                      <p class="card__text">Пробег: 17000 км.</p>
+                      <p class="card__price">11000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/vclass-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz V-Class 2021</h3>
+                      <p class="card__text">Пробег: 45000 км.</p>
+                      <p class="card__price">20000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="images/voyah_dream-1.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <div class="card__content">
+                      <h3 class="card__title">Voyah Dream 2023</h3>
+                      <p class="card__text">Пробег: 12000 км.</p>
+                      <p class="card__price">18000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/carnival-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Kia Carnival 2023</h3>
+                      <p class="card__text">Пробег: 9000 км.</p>
+                      <p class="card__price">18000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/multivan-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Volkswagen Multivan 2019</h3>
+                      <p class="card__text">Пробег: 126000 км.</p>
+                      <p class="card__price">12000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                </div>
+                <div class="tabs__content-item" id="content-4">
+                  <div class="card">
+                    <img src="images/models-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Tesla Model S 2022</h3>
+                      <p class="card__text">Пробег: 68000 км.</p>
+                      <p class="card__price">12000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/modelx-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Tesla Model X 2021</h3>
+                      <p class="card__text">Пробег: 98000 км.</p>
+                      <p class="card__price">14000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/eqs-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Mercedes Benz EQS 2023</h3>
+                      <p class="card__text">Пробег: 8000 км.</p>
+                      <p class="card__price">17000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/taycan-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Porsche Taycan 2022</h3>
+                      <p class="card__text">Пробег: 28000 км.</p>
+                      <p class="card__price">22000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img src="images/zeekr001-1.jpg" alt="" class="card__img" />
+                    <div class="card__content">
+                      <h3 class="card__title">Zeekr 001 2023</h3>
+                      <p class="card__text">Пробег: 15000 км.</p>
+                      <p class="card__price">19000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="images/lotus_eletre-1.jpg"
+                      alt=""
+                      class="card__img"
+                    />
+                    <div class="card__content">
+                      <h3 class="card__title">Lotus Eletre 2023</h3>
+                      <p class="card__text">Пробег: 4000 км.</p>
+                      <p class="card__price">19000 руб./сутки</p>
+                    </div>
+                    <a href="#" class="card__link">подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="container">
+            <div class="blog__items">
+              <div class="blog__item">
+                <img src="images/blog-1.jpg" alt="" class="blog__item-img" />
+                <h3 class="blog__item-title">
+                  Самый простой способ купить Toyota
+                </h3>
+                <a
+                  href="https://www.toyota.ru/"
+                  class="blog__item-link"
+                  target="_blank"
+                  >больше</a
+                >
+              </div>
+              <div class="blog__item">
+                <img src="images/blog-2.jpg" alt="" class="blog__item-img" />
+                <h3 class="blog__item-title">Как путешествовать с животными</h3>
+                <a
+                  href="https://fsvps.gov.ru/puteshestvujushhim-s-pitomcami-vvoz-vyvo/instrukcija-kak-puteshestvovat-s-domashnim-zhivotnym-po-territorii-rossii/#:~:text=%D0%9F%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D1%81%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D0%BC%2C%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%B8%D0%BC%D1%8B%D0%BC%20%D0%B4%D0%BB%D1%8F,%D1%81%D1%82%D0%BE%D1%8F%D1%82%D1%8C%20%D0%BE%D1%82%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%20%D0%BE%20%D0%B2%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D0%BE%D0%B3%D0%BE."
+                  class="blog__item-link"
+                  target="_blank"
+                  >больше</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="btn-up btn-up_hide"></div>#
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="index.html" class="footer__menu-logo">
+                  <img
+                    src="images/logo.svg"
+                    alt="Логотип компании"
+                    class="footer__menu-img"
+                  />
+                </a>
+                <p class="footer__menu-text">
+                  Car Racing - это общедоступный сервис аренды автомобилей,
+                  который предоставляет автомобили разных классов и с разным
+                  предназначением по доступной и разумной цене.
+                </p>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="index.html" class="footer__menu-link">Главная</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="services.html" class="footer__menu-link"
+                  >Наши услуги</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a href="cars.html" class="footer__menu-link">Аренда авто</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="about.html" class="footer__menu-link">О нас</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="contacts.html" class="footer__menu-link"
+                  >Связь с нами</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Наше расположение</p>
+              </li>
+              <li class="footer__menu-item">
+                <p class="footer__menu-text">
+                  г. Москва, ул. Рогожский Вал 9/2, 109544
+                </p>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Сотрудничество</p>
+              </li>
+              <li class="footer__menu-item">
+                <a
+                  href="https://2gis.ru/rostov/search/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B4%D0%B8%D0%BB%D0%B5%D1%80%D1%8B"
+                  class="footer__menu-link"
+                  target="_blank"
+                  >Дилеры</a
+                >
+              </li>
+              <li class="footer__menu-item">
+                <a
+                  href="https://localrent.com/ru/partners/"
+                  class="footer__menu-link"
+                  target="_blank"
+                  >Партнеры</a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="social">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/"
+                class="social-link"
+                target="_blank"
+              >
+                <img src="images/facebook.svg" alt="" class="social-item"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://twitter.com/"
+                class="social-link"
+                target="_blank"
+              >
+                <img src="images/twitter.svg" alt="" class="social-item"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://ru.linkedin.com/"
+                class="social-link"
+                target="_blank"
+              >
+                <img src="images/linked.svg" alt="" class="social-item"
+              /></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.youtube.com/"
+                class="social-link"
+                target="_blank"
+              >
+                <img
+                  src="images/youtube.svg"
+                  alt=""
+                  class="social-item"
+                  width="18px"
+                  height="16px"
+              /></a>
+            </li>
+          </ul>
+          <div class="footer__copy">
+            <p class="footer__copy-text">
+              © 2023 Car Racing. Все права защищены.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
